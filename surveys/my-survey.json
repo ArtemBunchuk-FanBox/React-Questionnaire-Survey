@@ -1,0 +1,139 @@
+{
+  "sections": [
+    {
+      "sectionHeader": "[Light Section Example]",
+      "sectionText": "[This section demonstrates a light theme with centered text and soft purple accents. Use this style for clean, modern sections.]",
+      "showDivider": true,
+      "showQuestionSeparators": true,
+      "style": {
+        "backgroundColor": "#f8f9fa",
+        "highlightColor": "#6366f1",
+        "textColor": "#1f2937",
+        "fontFamily": "Inter, system-ui, sans-serif",
+        "headerAlignment": "center",
+        "borderRadius": 12,
+        "elevation": 3,
+        "cardGlow": "rgba(99, 102, 241, 0.1)",
+        "separatorColor": "#e5e7eb",
+        "separatorStyle": "solid",
+        "separatorWidth": 1,
+        "questionSpacing": 4,
+        "contentPadding": 4
+      },
+      "questions": [
+        {
+          "id": "horizontal_demo",
+          "type": "multichoice",
+          "text": "[Horizontal layout example - notice how options flow in a row. Good for short options or limited choices.]",
+          "layout": "horizontal",
+          "textStyle": {
+            "color": "#4b5563",
+            "fontSize": "1.125rem",
+            "fontWeight": "500"
+          },
+          "answers": [
+            { "text": "[Option One]", "correct": true },
+            { "text": "[Option Two]", "default": true },
+            { "text": "[Option Three]" },
+            { "text": "[Option Four]" }
+          ]
+        },
+        {
+          "id": "vertical_demo",
+          "type": "multichoice",
+          "text": "[Vertical layout example - better for longer option text. Shows required field validation.]",
+          "layout": "vertical",
+          "required": true,
+          "answers": [
+            { "text": "[First Choice - Can be longer text]" },
+            { "text": "[Second Choice - Notice vertical spacing]", "default": true },
+            { "text": "[Third Choice - Good for mobile]" },
+            { "text": "[Fourth Choice - More readable]" }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionHeader": "[Neutral Section Example]",
+      "sectionText": "[This section shows a clean white background with cyan accents. Note the left alignment and dashed separators.]",
+      "showDivider": true,
+      "style": {
+        "backgroundColor": "#ffffff",
+        "highlightColor": "#06b6d4",
+        "textColor": "#0f172a",
+        "fontFamily": "system-ui",
+        "headerAlignment": "left",
+        "borderRadius": 8,
+        "elevation": 2,
+        "separatorColor": "#cbd5e1",
+        "separatorStyle": "dashed",
+        "separatorWidth": 2,
+        "questionSpacing": 3,
+        "contentPadding": 3
+      },
+      "questions": [
+        {
+          "id": "text_input_demo",
+          "type": "written",
+          "text": "[Written input example - shows placeholder text and multiline input field]",
+          "required": true,
+          "default": "[This text appears as placeholder. Once focused, it clears...]",
+          "textStyle": {
+            "color": "#374151",
+            "fontSize": "1rem"
+          }
+        }
+      ]
+    },
+    {
+      "sectionHeader": "[Dark Section Example]",
+      "sectionText": "[Demonstrates dark theme with purple accents. Notice the higher elevation and glow effect.]",
+      "style": {
+        "backgroundColor": "#1f2937",
+        "highlightColor": "#8b5cf6",
+        "textColor": "#f3f4f6",
+        "fontFamily": "Inter, sans-serif",
+        "headerAlignment": "center",
+        "borderRadius": 16,
+        "elevation": 4,
+        "cardGlow": "rgba(139, 92, 246, 0.2)",
+        "separatorColor": "#374151",
+        "separatorStyle": "solid",
+        "separatorWidth": 1,
+        "questionSpacing": 4,
+        "contentPadding": 4
+      },
+      "questions": [
+        {
+          "id": "dark_theme_demo",
+          "type": "multichoice",
+          "text": "[Question example in dark theme - notice the contrast and readability]",
+          "layout": "vertical",
+          "required": true,
+          "textStyle": {
+            "color": "#e5e7eb",
+            "fontSize": "1.125rem",
+            "fontWeight": "500"
+          },
+          "answers": [
+            { "text": "[Dark Theme Option One]", "default": true },
+            { "text": "[Dark Theme Option Two]" },
+            { "text": "[Dark Theme Option Three]" },
+            { "text": "[Dark Theme Option Four]" }
+          ]
+        },
+        {
+          "id": "dark_written_demo",
+          "type": "written",
+          "text": "[Written input in dark theme - demonstrates contrast and styling]",
+          "default": "Dark theme placeholder - notice the styling differences...Also, let's text long question: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla magna sapien, condimentum eget ipsum quis, maximus feugiat diam. Mauris velit lacus, scelerisque eget ipsum et, lacinia sollicitudin risus. Quisque in tellus convallis, tincidunt libero ullamcorper, suscipit ante. Nam commodo ligula vitae odio molestie interdum. Donec sollicitudin, ex at gravida luctus, enim arcu ornare orci, in tristique purus quam id ipsum. Cras lobortis justo eget sem fermentum molestie. Quisque nibh enim, tempus vel ex et, tristique bibendum sem. Quisque vulputate feugiat ipsum, sed efficitur odio fermentum et. Nulla in feugiat odio, finibus mollis diam. Vivamus id tortor non diam tempus aliquam. Curabitur suscipit sed dolor ut consectetur. Integer lacinia congue leo at vestibulum. Aliquam vitae volutpat lacus. ",
+          "wrap": true,
+          "textStyle": {
+            "color": "#e5e7eb",
+            "fontSize": "1rem"
+          }
+        }
+      ]
+    }
+  ]
+}
